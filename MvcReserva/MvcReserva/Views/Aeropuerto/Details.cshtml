@@ -1,0 +1,36 @@
+﻿@model ClassReserva.AEROPUERTO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>AEROPUERTO</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.idaeropuerto)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.idaeropuerto)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nombre)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nombre)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PAIS.nombre)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PAIS.nombre)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2b1debc36f9747878a16aff6b541d80b" Name="Diagrama1">
+        <EntityTypeShape EntityType="DBRESERVAModel.AEROLINEA" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESERVAModel.AEROPUERTO" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESERVAModel.ASIENTO" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESERVAModel.AVION" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESERVAModel.PAGO" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESERVAModel.PAIS" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESERVAModel.PASAJERO" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESERVAModel.RESERVA" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESERVAModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESERVAModel.TARIFA" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESERVAModel.VUELO" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="DBRESERVAModel.FK_AVION_AEROLINEA" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESERVAModel.FK_AEROPUERTO_PAIS" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESERVAModel.FK_VUELO_AEROPUERTO" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESERVAModel.FK_VUELO_ASIENTO" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESERVAModel.FK_VUELO_AVION" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESERVAModel.FK_PAGO_PASAJERO" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESERVAModel.FK_PAGO_RESERVA" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESERVAModel.FK_PASAJERO_PAIS" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESERVAModel.FK_VUELO_RESERVA" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESERVAModel.FK_VUELO_TARIFA" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

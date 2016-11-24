@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBRESERVAModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBReserva" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="AEROLINEA" EntityType="DBRESERVAModel.AEROLINEA" />
+    <EntitySet Name="AEROPUERTO" EntityType="DBRESERVAModel.AEROPUERTO" />
+    <EntitySet Name="ASIENTO" EntityType="DBRESERVAModel.ASIENTO" />
+    <EntitySet Name="AVION" EntityType="DBRESERVAModel.AVION" />
+    <EntitySet Name="PAGO" EntityType="DBRESERVAModel.PAGO" />
+    <EntitySet Name="PAIS" EntityType="DBRESERVAModel.PAIS" />
+    <EntitySet Name="PASAJERO" EntityType="DBRESERVAModel.PASAJERO" />
+    <EntitySet Name="RESERVA" EntityType="DBRESERVAModel.RESERVA" />
+    <EntitySet Name="sysdiagrams" EntityType="DBRESERVAModel.sysdiagrams" />
+    <EntitySet Name="TARIFA" EntityType="DBRESERVAModel.TARIFA" />
+    <EntitySet Name="VUELO" EntityType="DBRESERVAModel.VUELO" />
+    <AssociationSet Name="FK_AVION_AEROLINEA" Association="DBRESERVAModel.FK_AVION_AEROLINEA">
+      <End Role="AEROLINEA" EntitySet="AEROLINEA" />
+      <End Role="AVION" EntitySet="AVION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AEROPUERTO_PAIS" Association="DBRESERVAModel.FK_AEROPUERTO_PAIS">
+      <End Role="PAIS" EntitySet="PAIS" />
+      <End Role="AEROPUERTO" EntitySet="AEROPUERTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VUELO_AEROPUERTO" Association="DBRESERVAModel.FK_VUELO_AEROPUERTO">
+      <End Role="AEROPUERTO" EntitySet="AEROPUERTO" />
+      <End Role="VUELO" EntitySet="VUELO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VUELO_ASIENTO" Association="DBRESERVAModel.FK_VUELO_ASIENTO">
+      <End Role="ASIENTO" EntitySet="ASIENTO" />
+      <End Role="VUELO" EntitySet="VUELO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VUELO_AVION" Association="DBRESERVAModel.FK_VUELO_AVION">
+      <End Role="AVION" EntitySet="AVION" />
+      <End Role="VUELO" EntitySet="VUELO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PAGO_PASAJERO" Association="DBRESERVAModel.FK_PAGO_PASAJERO">
+      <End Role="PASAJERO" EntitySet="PASAJERO" />
+      <End Role="PAGO" EntitySet="PAGO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PAGO_RESERVA" Association="DBRESERVAModel.FK_PAGO_RESERVA">
+      <End Role="RESERVA" EntitySet="RESERVA" />
+      <End Role="PAGO" EntitySet="PAGO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PASAJERO_PAIS" Association="DBRESERVAModel.FK_PASAJERO_PAIS">
+      <End Role="PAIS" EntitySet="PAIS" />
+      <End Role="PASAJERO" EntitySet="PASAJERO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VUELO_RESERVA" Association="DBRESERVAModel.FK_VUELO_RESERVA">
+      <End Role="RESERVA" EntitySet="RESERVA" />
+      <End Role="VUELO" EntitySet="VUELO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VUELO_TARIFA" Association="DBRESERVAModel.FK_VUELO_TARIFA">
+      <End Role="TARIFA" EntitySet="TARIFA" />
+      <End Role="VUELO" EntitySet="VUELO" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AEROLINEA">
+    <Key>
+      <PropertyRef Name="idaerolinea" />
+    </Key>
+    <Property Name="idaerolinea" Type="Int32" Nullable="false" />
+    <Property Name="ruc" Type="String" Nullable="false" MaxLength="11" Unicode="false" FixedLength="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="AVION" Relationship="DBRESERVAModel.FK_AVION_AEROLINEA" FromRole="AEROLINEA" ToRole="AVION" />
+  </EntityType>
+  <EntityType Name="AEROPUERTO">
+    <Key>
+      <PropertyRef Name="idaeropuerto" />
+    </Key>
+    <Property Name="idaeropuerto" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="idpais" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="PAIS" Relationship="DBRESERVAModel.FK_AEROPUERTO_PAIS" FromRole="AEROPUERTO" ToRole="PAIS" />
+    <NavigationProperty Name="VUELO" Relationship="DBRESERVAModel.FK_VUELO_AEROPUERTO" FromRole="AEROPUERTO" ToRole="VUELO" />
+  </EntityType>
+  <EntityType Name="ASIENTO">
+    <Key>
+      <PropertyRef Name="idasiento" />
+    </Key>
+    <Property Name="idasiento" Type="Int32" Nullable="false" />
+    <Property Name="letra" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="fila" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="VUELO" Relationship="DBRESERVAModel.FK_VUELO_ASIENTO" FromRole="ASIENTO" ToRole="VUELO" />
+  </EntityType>
+  <EntityType Name="AVION">
+    <Key>
+      <PropertyRef Name="idavion" />
+    </Key>
+    <Property Name="idavion" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="true" />
+    <Property Name="idaerolinea" Type="Int32" Nullable="false" />
+    <Property Name="fabricante" Type="String" MaxLength="40" Unicode="false" FixedLength="false" />
+    <Property Name="tipo" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="capacidad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AEROLINEA" Relationship="DBRESERVAModel.FK_AVION_AEROLINEA" FromRole="AVION" ToRole="AEROLINEA" />
+    <NavigationProperty Name="VUELO" Relationship="DBRESERVAModel.FK_VUELO_AVION" FromRole="AVION" ToRole="VUELO" />
+  </EntityType>
+  <EntityType Name="PAGO">
+    <Key>
+      <PropertyRef Name="idpago" />
+    </Key>
+    <Property Name="idpago" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idreserva" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="idpasajero" Type="String" Nullable="false" MaxLength="8" Unicode="false" FixedLength="true" />
+    <Property Name="monto" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="tipo_comprobante" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="num_comprobante" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="impuesto" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+    <NavigationProperty Name="PASAJERO" Relationship="DBRESERVAModel.FK_PAGO_PASAJERO" FromRole="PAGO" ToRole="PASAJERO" />
+    <NavigationProperty Name="RESERVA" Relationship="DBRESERVAModel.FK_PAGO_RESERVA" FromRole="PAGO" ToRole="RESERVA" />
+  </EntityType>
+  <EntityType Name="PAIS">
+    <Key>
+      <PropertyRef Name="idpais" />
+    </Key>
+    <Property Name="idpais" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="AEROPUERTO" Relationship="DBRESERVAModel.FK_AEROPUERTO_PAIS" FromRole="PAIS" ToRole="AEROPUERTO" />
+    <NavigationProperty Name="PASAJERO" Relationship="DBRESERVAModel.FK_PASAJERO_PAIS" FromRole="PAIS" ToRole="PASAJERO" />
+  </EntityType>
+  <EntityType Name="PASAJERO">
+    <Key>
+      <PropertyRef Name="idpasajero" />
+    </Key>
+    <Property Name="idpasajero" Type="String" Nullable="false" MaxLength="8" Unicode="false" FixedLength="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="apaterno" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="amaterno" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="tipo_documento" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="num_documento" Type="String" Nullable="false" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="fecha_nacimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="idpais" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="true" />
+    <Property Name="telefono" Type="String" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="clave" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="PAGO" Relationship="DBRESERVAModel.FK_PAGO_PASAJERO" FromRole="PASAJERO" ToRole="PAGO" />
+    <NavigationProperty Name="PAIS" Relationship="DBRESERVAModel.FK_PASAJERO_PAIS" FromRole="PASAJERO" ToRole="PAIS" />
+  </EntityType>
+  <EntityType Name="RESERVA">
+    <Key>
+      <PropertyRef Name="idreserva" />
+    </Key>
+    <Property Name="idreserva" Type="Int32" Nullable="false" />
+    <Property Name="costo" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="observacion" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="PAGO" Relationship="DBRESERVAModel.FK_PAGO_RESERVA" FromRole="RESERVA" ToRole="PAGO" />
+    <NavigationProperty Name="VUELO" Relationship="DBRESERVAModel.FK_VUELO_RESERVA" FromRole="RESERVA" ToRole="VUELO" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TARIFA">
+    <Key>
+      <PropertyRef Name="idtarifa" />
+    </Key>
+    <Property Name="idtarifa" Type="Int32" Nullable="false" />
+    <Property Name="clase" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="precio" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="impuesto" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="VUELO" Relationship="DBRESERVAModel.FK_VUELO_TARIFA" FromRole="TARIFA" ToRole="VUELO" />
+  </EntityType>
+  <EntityType Name="VUELO">
+    <Key>
+      <PropertyRef Name="idasiento" />
+      <PropertyRef Name="idaeropuerto" />
+      <PropertyRef Name="idreserva" />
+      <PropertyRef Name="idavion" />
+    </Key>
+    <Property Name="idasiento" Type="Int32" Nullable="false" />
+    <Property Name="idaeropuerto" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="true" />
+    <Property Name="idreserva" Type="Int32" Nullable="false" />
+    <Property Name="idavion" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="true" />
+    <Property Name="idtarifa" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AEROPUERTO" Relationship="DBRESERVAModel.FK_VUELO_AEROPUERTO" FromRole="VUELO" ToRole="AEROPUERTO" />
+    <NavigationProperty Name="ASIENTO" Relationship="DBRESERVAModel.FK_VUELO_ASIENTO" FromRole="VUELO" ToRole="ASIENTO" />
+    <NavigationProperty Name="AVION" Relationship="DBRESERVAModel.FK_VUELO_AVION" FromRole="VUELO" ToRole="AVION" />
+    <NavigationProperty Name="RESERVA" Relationship="DBRESERVAModel.FK_VUELO_RESERVA" FromRole="VUELO" ToRole="RESERVA" />
+    <NavigationProperty Name="TARIFA" Relationship="DBRESERVAModel.FK_VUELO_TARIFA" FromRole="VUELO" ToRole="TARIFA" />
+  </EntityType>
+  <Association Name="FK_AVION_AEROLINEA">
+    <End Role="AEROLINEA" Type="DBRESERVAModel.AEROLINEA" Multiplicity="1" />
+    <End Role="AVION" Type="DBRESERVAModel.AVION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AEROLINEA">
+        <PropertyRef Name="idaerolinea" />
+      </Principal>
+      <Dependent Role="AVION">
+        <PropertyRef Name="idaerolinea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AEROPUERTO_PAIS">
+    <End Role="PAIS" Type="DBRESERVAModel.PAIS" Multiplicity="1" />
+    <End Role="AEROPUERTO" Type="DBRESERVAModel.AEROPUERTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PAIS">
+        <PropertyRef Name="idpais" />
+      </Principal>
+      <Dependent Role="AEROPUERTO">
+        <PropertyRef Name="idpais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VUELO_AEROPUERTO">
+    <End Role="AEROPUERTO" Type="DBRESERVAModel.AEROPUERTO" Multiplicity="1" />
+    <End Role="VUELO" Type="DBRESERVAModel.VUELO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AEROPUERTO">
+        <PropertyRef Name="idaeropuerto" />
+      </Principal>
+      <Dependent Role="VUELO">
+        <PropertyRef Name="idaeropuerto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VUELO_ASIENTO">
+    <End Role="ASIENTO" Type="DBRESERVAModel.ASIENTO" Multiplicity="1" />
+    <End Role="VUELO" Type="DBRESERVAModel.VUELO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ASIENTO">
+        <PropertyRef Name="idasiento" />
+      </Principal>
+      <Dependent Role="VUELO">
+        <PropertyRef Name="idasiento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VUELO_AVION">
+    <End Role="AVION" Type="DBRESERVAModel.AVION" Multiplicity="1" />
+    <End Role="VUELO" Type="DBRESERVAModel.VUELO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AVION">
+        <PropertyRef Name="idavion" />
+      </Principal>
+      <Dependent Role="VUELO">
+        <PropertyRef Name="idavion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PAGO_PASAJERO">
+    <End Role="PASAJERO" Type="DBRESERVAModel.PASAJERO" Multiplicity="1" />
+    <End Role="PAGO" Type="DBRESERVAModel.PAGO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PASAJERO">
+        <PropertyRef Name="idpasajero" />
+      </Principal>
+      <Dependent Role="PAGO">
+        <PropertyRef Name="idpasajero" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PAGO_RESERVA">
+    <End Role="RESERVA" Type="DBRESERVAModel.RESERVA" Multiplicity="1" />
+    <End Role="PAGO" Type="DBRESERVAModel.PAGO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RESERVA">
+        <PropertyRef Name="idreserva" />
+      </Principal>
+      <Dependent Role="PAGO">
+        <PropertyRef Name="idreserva" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PASAJERO_PAIS">
+    <End Role="PAIS" Type="DBRESERVAModel.PAIS" Multiplicity="1" />
+    <End Role="PASAJERO" Type="DBRESERVAModel.PASAJERO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PAIS">
+        <PropertyRef Name="idpais" />
+      </Principal>
+      <Dependent Role="PASAJERO">
+        <PropertyRef Name="idpais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VUELO_RESERVA">
+    <End Role="RESERVA" Type="DBRESERVAModel.RESERVA" Multiplicity="1" />
+    <End Role="VUELO" Type="DBRESERVAModel.VUELO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RESERVA">
+        <PropertyRef Name="idreserva" />
+      </Principal>
+      <Dependent Role="VUELO">
+        <PropertyRef Name="idreserva" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VUELO_TARIFA">
+    <End Role="TARIFA" Type="DBRESERVAModel.TARIFA" Multiplicity="1" />
+    <End Role="VUELO" Type="DBRESERVAModel.VUELO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TARIFA">
+        <PropertyRef Name="idtarifa" />
+      </Principal>
+      <Dependent Role="VUELO">
+        <PropertyRef Name="idtarifa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,51 @@
+﻿@model ClassReserva.AEROPUERTO
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>AEROPUERTO</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.idaeropuerto)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.idaeropuerto)
+            @Html.ValidationMessageFor(model => model.idaeropuerto)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nombre)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nombre)
+            @Html.ValidationMessageFor(model => model.nombre)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.idpais, "PAIS")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("idpais", String.Empty)
+            @Html.ValidationMessageFor(model => model.idpais)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
