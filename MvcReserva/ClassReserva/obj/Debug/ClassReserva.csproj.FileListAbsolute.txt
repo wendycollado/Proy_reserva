@@ -1,9 +1,0 @@
-c:\users\usuario\documents\visual studio 2012\Projects\MvcReserva\ClassReserva\bin\Debug\ClassReserva.dll.config
-c:\users\usuario\documents\visual studio 2012\Projects\MvcReserva\ClassReserva\bin\Debug\ClassReserva.dll
-c:\users\usuario\documents\visual studio 2012\Projects\MvcReserva\ClassReserva\bin\Debug\ClassReserva.pdb
-c:\users\usuario\documents\visual studio 2012\Projects\MvcReserva\ClassReserva\bin\Debug\EntityFramework.dll
-c:\users\usuario\documents\visual studio 2012\Projects\MvcReserva\ClassReserva\bin\Debug\EntityFramework.xml
-c:\users\usuario\documents\visual studio 2012\Projects\MvcReserva\ClassReserva\bin\Debug\es\EntityFramework.resources.dll
-c:\users\usuario\documents\visual studio 2012\Projects\MvcReserva\ClassReserva\obj\Debug\ClassReserva.csprojResolveAssemblyReference.cache
-c:\users\usuario\documents\visual studio 2012\Projects\MvcReserva\ClassReserva\obj\Debug\ClassReserva.dll
-c:\users\usuario\documents\visual studio 2012\Projects\MvcReserva\ClassReserva\obj\Debug\ClassReserva.pdb
