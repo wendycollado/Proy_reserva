@@ -1,0 +1,40 @@
+<testcases repeat="1">
+
+<case
+    id="1"
+    description1="SAMPLE TEST CASE - load WebInject dev page"
+    description2="verify string 'Corey Goldberg' exists in response"
+    method="get"
+    posttype="text/xml"
+    postbody="file=>pruebas.txt"
+    url="http://ec2-54-218-36-89.us-west-2.compute.amazonaws.com/basic/web/"
+    verifypositive="Corey Goldberg"
+/>
+
+<case
+    id="2"
+    description1="SAMPLE [NEGATIVE] TEST CASE - load WebInject dev page"
+    description2="verify string 'bogus string' does not exist in response"
+    method="get"
+    url="http://ec2-54-218-36-89.us-west-2.compute.amazonaws.com/basic/web/"
+    verifynegative="bogus string"
+/>
+
+<case
+    id="3"
+    description1="SAMPLE TEST CASE THAT FAILS - load bogus page"
+    description2="case should fail with an HTTP 404 (not found) error"
+    method="get"
+    url="http://ec2-54-218-36-89.us-west-2.compute.amazonaws.com/basic/web/"
+/>
+
+<case
+    id="4"
+    description1="SAMPLE TEST CASE THAT FAILS - valid page with bogus verification"
+    description2="case should fail"
+    method="get"
+    url="http://ec2-54-218-36-89.us-west-2.compute.amazonaws.com/basic/web/"
+    verifypositive="I am a bogus string"
+/>
+
+</testcases>

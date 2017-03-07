@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>WebInject Test Results</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <style type="text/css">
+        body {
+            background-color: #F5F5F5;
+            color: #000000;
+            font-family: Verdana, Arial, Helvetica, sans-serif; 
+            font-size: 10px;
+        }
+        .pass { 
+            color: green; 
+        }
+        .fail { 
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<hr />
+-------------------------------------------------------<br />
+<b>Test:  testcases.xml - 1 </b><br />
+SAMPLE TEST CASE - load WebInject dev page <br />
+verify string 'Corey Goldberg' exists in response <br />
+<br />
+Verify : "Corey Goldberg" <br />
+<span class="fail">Failed Positive Verification</span><br />
+<span class="pass">Passed HTTP Response Code Verification (not in error range)</span><br />
+<b><span class="fail">TEST CASE FAILED</span></b><br />
+Response Time = 0.472 sec <br />
+<br />
+------------------------------------------------------- <br />
+
+<b>Test:  testcases.xml - 2 </b><br />
+SAMPLE [NEGATIVE] TEST CASE - load WebInject dev page <br />
+verify string 'bogus string' does not exist in response <br />
+<br />
+Verify Negative: "bogus string" <br />
+<span class="pass">Passed Negative Verification</span><br />
+<span class="pass">Passed HTTP Response Code Verification (not in error range)</span><br />
+<b><span class="pass">TEST CASE PASSED</span></b><br />
+Response Time = 0.903 sec <br />
+<br />
+------------------------------------------------------- <br />
+
+<b>Test:  testcases.xml - 3 </b><br />
+SAMPLE TEST CASE THAT FAILS - load bogus page <br />
+case should fail with an HTTP 404 (not found) error <br />
+<br />
+<span class="pass">Passed HTTP Response Code Verification (not in error range)</span><br />
+<b><span class="pass">TEST CASE PASSED</span></b><br />
+Response Time = 0.729 sec <br />
+<br />
+------------------------------------------------------- <br />
+
+<b>Test:  testcases.xml - 4 </b><br />
+SAMPLE TEST CASE THAT FAILS - valid page with bogus verification <br />
+case should fail <br />
+<br />
+Verify : "I am a bogus string" <br />
+<span class="fail">Failed Positive Verification</span><br />
+<span class="pass">Passed HTTP Response Code Verification (not in error range)</span><br />
+<b><span class="fail">TEST CASE FAILED</span></b><br />
+Response Time = 0.47 sec <br />
+<br />
+------------------------------------------------------- <br />
+
+    
+<br /><hr /><br />
+<b>
+Start Time: Tue Jun 28 16:48:18 2016 <br />
+Total Run Time: 3.334 seconds <br />
+<br />
+Test Cases Run: 4 <br />
+Test Cases Passed: 2 <br />
+Test Cases Failed: 2 <br />
+Verifications Passed: 5 <br />
+Verifications Failed: 2 <br />
+<br />
+Average Response Time: 0.643 seconds <br />
+Max Response Time: 0.903 seconds <br />
+Min Response Time: 0.47 seconds <br />
+</b>
+<br />
+
+</body>
+</html>

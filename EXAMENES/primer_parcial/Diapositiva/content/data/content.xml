@@ -1,0 +1,1824 @@
+<zuiprezi>
+  <version>6</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-365518.4522459415" y="-251544.03538297737" width="731036.904491883" height="503088.07076595473"/>
+      <aspectratio>off</aspectratio>
+      <languages>
+        <language>es</language>
+      </languages>
+      <mode type="normal"/>
+    </settings>
+    <object id="132_70778759" type="image" x="-88117.1" y="11839.35" r="-10.32172833682078" s="32.265210359378834">
+      <source w="500" h="210">4636704112<url>4636704112.jpg</url></source>
+      <sourceUrl>qwq.jpg</sourceUrl>
+    <resource><id>4636704112</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/a/d/dfcc18baef75914ce0ff54522c32873459644.jpg</url></resource></object>
+    <object id="108_70778759" type="image" x="28920.76274571977" y="-60729.944477310775" r="0" s="24.73571100714415">
+      <source w="282" h="179">4636668703<url>4636668703.png</url></source>
+      <sourceUrl>CMMI.png</sourceUrl>
+    <resource><id>4636668703</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/5/8/a7cb3f0bbed35d0f9558a01a47bf4cdf69d2e.png</url></resource></object>
+    <object id="116_70778759" type="image" x="-16757.23983818583" y="-144085.29770689295" r="0" s="3.451427564111011">
+      <source w="680" h="381">4636694580<url>4636694580.gif</url></source>
+      <sourceUrl>sds.gif</sourceUrl>
+    <resource><id>4636694580</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/c/5/db82c5c38bf2439a0502629f47eea1c2a21a4.gif</url></resource></object>
+    <object id="118_70778759" type="button" x="32394.65" y="-58588.3" r="0" s="20.914299246523015" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="109_70778759" type="image" x="32495.338065318545" y="-54970.049999999996" r="1.1849145213862155e-15" s="30.761306370965247">
+      <source w="203" h="248">4636698870<mask x="0" y="0" w="203" h="248"/>
+      <url>4636698870.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F1%2F7%2F4%2Fbdce5f812924eccd485596e802b8a2b959407.png</sourceUrl>
+    <resource><id>4636698870</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/7/4/bdce5f812924eccd485596e802b8a2b959407.png</url></resource></object>
+    <object id="93_70778759" type="image" x="37505.70786611869" y="-52236.75460075573" r="6.346380751783036" s="2.7047196596846343">
+      <source w="200" h="200">4636607051<url>4636607051.gif</url></source>
+      <sourceUrl>Compliacion.gif</sourceUrl>
+    <resource><id>4636607051</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/3/5/f03b68bda58524795d9bf3818f3ef10876d58.gif</url></resource></object>
+    <object id="0_15277798" type="button" x="29895.62225515618" y="1.0290552606636084e-11" r="0" s="553.8787523571009" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1214.50263408031</w>
+        <h>910.8769755602328</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="OVERVIEW"/>
+      </layout>
+    </object>
+    <object id="1" type="button" x="-76355.77043154345" y="130219.73974539766" r="-10.321728336820764" s="134.80026836772686" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="2" type="button" x="-97956.57598503878" y="20285.008774424416" r="-10.321728336820772" s="102.5483523725209" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="3" type="button" x="144202.37856369826" y="16703.659052344738" r="6.346380751783036" s="94.67410581283752" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="4" type="button" x="-49441.63987474397" y="93915.17525882852" r="15.648270267006264" s="4.655907524729912" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="5" type="button" x="74071.7" y="-149526.95" r="42.21061847089571" s="20.234720006991434" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="6" type="shape" x="-24968.30620311627" y="20716.19410704665" r="18.868999455061342" s="324.8702121640614" class="line3">
+      <geom type="arrow">
+        <sp>52.42488975186883 6.964537541713515</sp>
+        <ep>-52.42488975186883 6.96453754171349</ep>
+        <b>13.929075083427003</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+    </object>
+    <object id="7" type="shape" x="-28780.17372478392" y="69261.27958264483" r="-35.79000510015827" s="324.8702121640616" class="line3">
+      <geom type="arrow">
+        <sp>50.82081707411884 8.253704112187108</sp>
+        <ep>-50.82081707411885 8.253704112187087</ep>
+        <b>16.507408224374196</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+    </object>
+    <object id="8" type="shape" x="87224.11809424049" y="68683.67213516246" r="41.01205064932313" s="324.87021216406146" class="line3">
+      <geom type="arrow">
+        <sp>-49.83766819713804 5.75175303211979</sp>
+        <ep>49.83766819713804 5.75175303211979</ep>
+        <b>-11.50350606423958</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+    </object>
+    <object id="9" type="shape" x="86628.91965817657" y="18729.88391338458" r="-21.53100841690771" s="324.8702121640619" class="line3">
+      <geom type="arrow">
+        <sp>-43.763371963015054 6.47924435937075</sp>
+        <ep>43.76337196301506 6.47924435937075</ep>
+        <b>-12.9584887187415</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+    </object>
+    <object id="10" type="shape" x="30942.329940285177" y="-14215.850268668202" r="-90.00000000000007" s="324.87021216406185" class="line3">
+      <geom type="arrow">
+        <sp>-68.62788924780534 0</sp>
+        <ep>68.62788924780534 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+    </object>
+    <object id="0_13415665" type="text" x="29104.946639666978" y="215072.605962001" r="0" s="1326.353290206313" class="head">
+      <height>29.28</height>
+      <width>490.65722573217215</width>
+      <p align="center">
+        <text color="15478355" weight="bold"><![CDATA[CERTIFICACIÓN DE SISTEMAS DE GESTIÓN]]></text>
+      </p>
+    </object>
+    <object id="12_4" type="text" x="-81335.5699575811" y="106020.02280776035" r="-10.321728336820781" s="329.94049946733105" class="strong">
+      <height>57.6</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Qué es la norma ISO 9001?]]></text>
+      </p>
+      <meta>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <layout-element role="title" parent-id="1"/>
+      </layout>
+    </object>
+    <object id="34_70778759" type="image" x="-96893.1" y="165829.1" r="-24.127251047996346" s="8.077477798092561">
+      <source w="268" h="188">4636437131<url>4636437131.jpg</url></source>
+      <sourceUrl>FG.jpg</sourceUrl>
+    <resource><id>4636437131</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/1/9/e55ea8737a41657709d56569d9f50eb6bacbf.jpg</url></resource></object>
+    <object id="25_4" type="text" x="-76237.20332849692" y="136585.46284449572" r="-10.32172833682077" s="189.60538042322295" class="body">
+      <height>220.78125</height>
+      <width>375.8238305763323</width>
+      <p align="center">
+        <text><![CDATA[Es una norma internacional que se aplica a los sistemas de gestión de calidad (SGC) y que se centra en todos los elementos de administración de calidad con los que una empresa debe contar para tener un sistema efectivo que le permita administrar y mejorar la calidad de sus productos o servicios.]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="1"/>
+      </layout>
+    </object>
+    <object id="0_30863873" type="text" x="-49261.61868227104" y="93042.58547184987" r="15.648270267006264" s="10.26428680766865" class="strong">
+      <height>57.6</height>
+      <width>277.8493900181616</width>
+      <p align="center">
+        <text><![CDATA[Implementación del Sistema de Gestión]]></text>
+      </p>
+      <meta>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <layout-element role="title" parent-id="4"/>
+      </layout>
+    </object>
+    <object id="2_30863873" type="text" x="-103206.42272049868" y="-6500.576402598028" r="-10.321728336820774" s="226.0753021434813" class="strong">
+      <height>28.8</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Herramientas]]></text>
+      </p>
+      <meta>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <layout-element role="title" parent-id="2"/>
+      </layout>
+    </object>
+    <object id="51_70778759" type="image" x="143127" y="28167.8" r="6.346380751783037" s="120.5959886250733">
+      <source w="203" h="248">4636544756<url>4636544756.png</url></source>
+      <sourceUrl>IEEE.png</sourceUrl>
+    <resource><id>4636544756</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/4/d/d2e84472c8e354b6f894afcf5a90c519dd981.png</url></resource></object>
+    <object id="42_70778759" type="image" x="74615.62986970815" y="-150126.07994460693" r="42.21061847089571" s="21.883034793791676">
+      <source w="275" h="183">4636458869<url>4636458869.jpg</url></source>
+      <sourceUrl>CERTIFICDOS.jpg</sourceUrl>
+    <resource><id>4636458869</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/e/7/a141b018623ffd61ca27e756dccf0929572aa.jpg</url></resource></object>
+    <object id="107_70778759" type="image" x="35978.55" y="-60916.19999999999" r="2.4685224949338734e-15" s="3.4059171309836938">
+      <source w="1288" h="1300">4636668469<url>4636668469.jpg</url></source>
+      <sourceUrl>24590178-Sello-de-oro-de-la-certificaci-n-ISO-9001-Foto-de-archivo.jpg</sourceUrl>
+    <resource><id>4636668469</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/7/6/06cd7aa6f94895cc1f6aec4d7fb23b72d796a.jpg</url></resource></object>
+    <object id="6_30863873" type="text" x="77043.57057637996" y="-152804.686442037" r="42.21061847089571" s="44.608912123244906" class="strong">
+      <height>86.4</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Qué es la Certificación de Sistemas de Gestión?]]></text>
+      </p>
+      <meta>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <layout-element role="title" parent-id="5"/>
+      </layout>
+    </object>
+    <object id="7_30863873" type="text" x="71673.97843672037" y="-146885.60362571588" r="42.21061847089571" s="25.73911714043248" class="body">
+      <height>137.98828125</height>
+      <width>491.37309084473264</width>
+      <p align="center">
+        <text><![CDATA[Es la acción que lleva acabo una entidad independiente, a través de la cual se manifiesta la conformidad del Sistemas de Gestión de una Organización,con los requisitos definidos en normas especificas de gestión.]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="5"/>
+      </layout>
+    </object>
+    <object id="58_70778759" type="button" x="-50460.87883406787" y="94397.28825512418" r="-23.027642628448337" s="1.0452422276363988" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>774.6612066962003</w>
+        <h>580.9959050221505</h>
+      </size>
+      <layout>
+        <frametype value="OVERVIEW"/>
+      </layout>
+    </object>
+    <object id="84_70778759" type="button" x="-50533.23700862653" y="94227.08438879468" r="-23.027642628448337" s="0.08584180164170786" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="0_70778759" type="image" x="-50535.2636619136" y="94225.85644337328" r="-23.02764262844834" s="0.04126711117687995">
+      <source w="1200" h="762">4634449474<mask x="0" y="0" w="1200" h="761"/>
+      <url>4634449474.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F8%2Fd%2F8%2Fac6bbf0dc0970381499cefa44ea5ece009551.png</sourceUrl>
+    <resource><id>4634449474</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/d/8/ac6bbf0dc0970381499cefa44ea5ece009551.png</url></resource></object>
+    <object id="32_70778759" type="text" x="-49407.93297663857" y="93795.04804374411" r="15.648270267006264" s="8.452211836525047" class="body">
+      <height>82.79296875</height>
+      <width>368.221875</width>
+      <p>
+        <text><![CDATA[Implementar un Sistema de Gestión es una nueva forma de hacer las cosas  que abarca a toda la organización.]]></text>
+      </p>
+    </object>
+    <object id="59_70778759" type="button" x="-50538.82657063776" y="94218.2013765952" r="-23.027642628448337" s="0.2607638842802884" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="61_70778759" type="button" x="-50405.3790359709" y="94537.48465120769" r="-23.027642628448344" s="0.22870902422968425" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="63_70778759" type="shape" x="-50470.15631931761" y="94385.04544210147" r="-113.02764262844826" s="0.8592684549943382" class="line1">
+      <geom type="arrow">
+        <sp>86.28934083681291 0</sp>
+        <ep>-86.2893408368129 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="70_70778759" type="shape" x="-50497.31635658961" y="94319.51850090867" r="-23.027642628448305" s="0.14922412063661053" class="poly2">
+      <geom type="circle">
+        <r>38.00551831374656</r>
+      </geom>
+    </object>
+    <object id="72_70778759" type="text" x="-50554.519314260615" y="94175.47477450312" r="-23.02764262844834" s="0.5748729507873701" class="strong">
+      <height>57.6</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Metodología para la Implementación]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="59_70778759"/>
+      </layout>
+    </object>
+    <object id="73_70778759" type="text" x="-50488.12980794531" y="94275.10521452442" r="-23.027642628448337" s="0.3316987910465516" class="body">
+      <height>27.59765625</height>
+      <width>390.9237784827681</width>
+      <p>
+        <text><![CDATA[depende de factores como]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="59_70778759"/>
+      </layout>
+    </object>
+    <object id="86_70778759" type="text" x="-50523.80932047969" y="94247.33880258344" r="-23.027642628448355" s="0.10377165967824224" class="body">
+      <height>55.1953125</height>
+      <width>430.5853719477023</width>
+      <p align="center">
+        <text><![CDATA[Esquema General de la Implementación de un Sistema de Gestión]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="84_70778759"/>
+      </layout>
+    </object>
+    <object id="2_70778759" type="button" x="-49121.05911030372" y="94834.03870411124" r="17.56709592186698" s="0.9349380330210164" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1539.84375</w>
+        <h>600</h>
+      </size>
+      <layout>
+        <frametype value="OVERVIEW"/>
+      </layout>
+    </object>
+    <object id="5_70778759" type="button" x="-49536.5928982176" y="94703.80605598033" r="17.56709592186697" s="0.6731710270202484" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="6_70778759" type="shape" x="-49148.946993721154" y="94785.85126842905" r="17.567095398754326" s="1.8380750866931213" class="line1">
+      <style gradStartAlpha="1" gradStartColor="5974240" gradEndColor="5974240" color="5974240" borderColor="5974240" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="5974240" gradEndColor="5974240" color="5974240" borderColor="5974240" gradEndAlpha="1"/>
+      <geom type="arrow">
+        <sp>-67.03982507274155 0</sp>
+        <ep>67.03982507274155 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="7_70778759" type="button" x="-48869.23937931109" y="95042.96037598205" r="17.567095921866983" s="0.6736116787588701" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="9_70778759" type="text" x="-49498.13631209181" y="94574.51490066484" r="17.56709592186698" s="1.484054495336982" class="strong">
+      <height>28.8</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Proceso Comercial]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="5_70778759"/>
+      </layout>
+    </object>
+    <object id="14_70778759" type="image" x="-48878.33046505354" y="95050.3873034095" r="17.567095921866983" s="0.23662037336869937">
+      <source w="1696" h="1274">4634499823<url>4634499823.png</url></source>
+      <sourceUrl>PROCESOS%20DE%20CERTIFICACION.png</sourceUrl>
+    <resource><id>4634499823</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/b/2/62c832e0fe208be4d2686f836ff19a775197a.png</url></resource></object>
+    <object id="11_70778759" type="text" x="-48815.76795170316" y="94874.91039214986" r="17.56709592186698" s="1.83030938015686" class="strong">
+      <height>57.6</height>
+      <width>250.8493900181616</width>
+      <p align="center">
+        <text><![CDATA[Proceso de Certificación]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="7_70778759"/>
+      </layout>
+    </object>
+    <object id="13_70778759" type="image" x="-49536.60207136865" y="94703.77503779392" r="17.567095921866986" s="0.41627740952977">
+      <source w="1200" h="120">4634476100<mask x="0" y="0" w="1200" h="119"/>
+      <url>4634476100.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2Fc%2F4%2Fe%2F3daf4915b23da6fec8ad2b367e8ebb4d58a40.png</sourceUrl>
+    <resource><id>4634476100</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/4/e/3daf4915b23da6fec8ad2b367e8ebb4d58a40.png</url></resource></object>
+    <object id="15_70778759" type="image" x="-49156.93842010994" y="94823.66652360026" r="17.567095921866983" s="0.2612247113142155">
+      <source w="1774" h="212">4634502584<mask x="548" y="0" w="1226" h="202"/>
+      <url>4634502584.png</url></source>
+      <sourceUrl>Imagen1.png</sourceUrl>
+    <resource><id>4634502584</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/5/5/154552bb04f0b78f943144c9f6d2afdb48a33.png</url></resource></object>
+    <object id="43_70778759" type="button" x="70213.53070715997" y="-144545.38472698483" r="18.083367422899375" s="2.227464111760994" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="8_70778759" type="button" x="70072.94059513121" y="-143819.1442144599" r="31.88889013407493" s="0.2551350149441585" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>blank-quick</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="10_70778759" type="text" x="70105.38096018475" y="-143869.18378584852" r="31.88889013407492" s="0.5624636988935013" class="strong">
+      <height>57.6</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Cuando Solicitar una Certificación?]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="8_70778759"/>
+      </layout>
+    </object>
+    <object id="16_70778759" type="text" x="70072.4961235455" y="-143804.89504307802" r="31.88889013407493" s="0.31749609462699846" class="body">
+      <height>193.18359375</height>
+      <width>411.7821605315549</width>
+      <p>
+        <text><![CDATA[Se recomienda tener tener :]]></text>
+      </p>
+      <p>
+        <text><![CDATA[3 meses como evidencia mínima documental de la implementación del diseño del sistema de gestión tomando en cuenta las conclusiones de la auditoría interna y los resultados de la revisión por la dirección.]]></text>
+      </p>
+    </object>
+    <object id="151_70778759" type="button" x="139911.1881495854" y="117468.11051727048" r="15.648270267006264" s="127.18093249451871" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="48_70778759" type="image" x="146826.26818618635" y="89928.02294761296" r="15.648270267006264" s="149.3490491183389">
+      <source w="282" h="179">4636470536<mask x="0" y="0" w="282" h="175"/>
+      <url>4636470536.png</url></source>
+      <sourceUrl>CMMI.png</sourceUrl>
+    <resource><id>4636470536</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/c/e/8921ad49a3a46fddd2dde55027ef94c4c8c17.png</url></resource></object>
+    <object id="152_70778759" type="text" x="139131.75" y="110746.50000000001" r="15.867965847044053" s="329.940499467331" class="strong">
+      <height>28.8</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[CMMI]]></text>
+      </p>
+      <meta>
+        <parentTemplate>lightbulb2_3D-quick</parentTemplate>
+      </meta>
+      <layout>
+        <layout-element role="title" parent-id="2"/>
+      </layout>
+    </object>
+    <object id="153_70778759" type="text" x="140015.85" y="125353.40000000001" r="15.648270267006247" s="151.44033352777717" class="body">
+      <height>137.98828125</height>
+      <width>561.7697005205598</width>
+      <p>
+        <text><![CDATA[Es el acrónimo de Capability Maturity Model Integration (Integración de Modelos de Madurez de las Capacidades) y se refiere a los modelos que contienen las mejores prácticas que ayudan a las organizaciones a mejorar sus procesos.  ]]></text>
+      </p>
+    </object>
+    <object id="154_70778759" type="button" x="104639.4" y="96358.85" r="-33.346411565080516" s="13.094326069139465" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="155_70778759" type="button" x="114266.9" y="145655.25" r="-26.084385716299018" s="14.03122101259846" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="156_70778759" type="button" x="180622.2" y="118846.85" r="61.28685586204273" s="14.307167872347096" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>blank-quick</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="170_70778759" type="image" x="180583.25" y="119034.95" r="61.28685586204273" s="15.02157317004085">
+      <source w="728" h="563">4636503219<mask x="96" y="76" w="574" h="364"/>
+      <url>4636503219.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2Fd%2Fa%2F5%2F1ad0eaad28f6c16ed111f81364b7c829334ee.png</sourceUrl>
+    <resource><id>4636503219</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/a/5/1ad0eaad28f6c16ed111f81364b7c829334ee.png</url></resource></object>
+    <object id="12_70778759" type="button" x="142622.85" y="147479" r="57.75918684938604" s="9.046962264817257" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="50_70778759" type="image" x="142598.3803178112" y="147553.19499412752" r="57.759186849386026" s="8.141160337474117">
+      <source w="728" h="546">4636520577<mask x="17" y="19" w="626" h="472"/>
+      <url>4636520577.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F8%2F2%2F1%2F5a9ef902da680139fdb34f8dd3f4ddf3ddb11.png</sourceUrl>
+    <resource><id>4636520577</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/2/1/5a9ef902da680139fdb34f8dd3f4ddf3ddb11.png</url></resource></object>
+    <object id="172_70778759" type="image" x="105087.62788396949" y="97101.83980500566" r="-33.34641156508052" s="12.959457112881978">
+      <source w="464" h="402">4634617590<url>4634617590.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2Fb%2Fd%2F0%2F31a0e63d287172d74483f7cd8f62d262f9af2.png</sourceUrl>
+    <resource><id>4634617590</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/d/0/31a0e63d287172d74483f7cd8f62d262f9af2.png</url></resource></object>
+    <object id="171_70778759" type="text" x="104095.96924668379" y="94045.52746093216" r="-33.3464115650805" s="36.31038380453811" class="strong">
+      <height>28.8</height>
+      <width>260.0932577406111</width>
+      <p>
+        <text><![CDATA[Evolución de CMMI]]></text>
+      </p>
+    </object>
+    <object id="1_70778759" type="text" x="-365518.4522459415" y="-99928.4016656832" r="0" s="1326.353290206313" class="body">
+      <height>27.59765625</height>
+      <width>0</width>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="3_70778759" type="text" x="113270.80223844206" y="143600.6442294079" r="-26.084385716299014" s="45.94451317805973" class="strong">
+      <height>28.8</height>
+      <width>-176.76000000000002</width>
+      <p>
+        <text><![CDATA[Que es el CMMI?]]></text>
+      </p>
+    </object>
+    <object id="49_70778759" type="image" x="112197.8" y="148005.75" r="-26.084385716299018" s="15.287818596907675">
+      <source w="158" h="240">4636475021<url>4636475021.jpg</url></source>
+      <sourceUrl>G.jpg</sourceUrl>
+    <resource><id>4636475021</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/7/c/8f9dc435c4944c3c717e0ebc1b4c045e36b59.jpg</url></resource></object>
+    <object id="4_70778759" type="text" x="116174.35" y="146115.45" r="-26.084385716299025" s="23.993632760454425" class="body">
+      <height>137.98828125</height>
+      <width>232.25</width>
+      <p>
+        <text><![CDATA[Es un modelo de calidad del software que clasifica las empresas en niveles de madurez.  ]]></text>
+      </p>
+    </object>
+    <object id="17_70778759" type="button" x="-119921.85" y="120686.05" r="-44.197171625063646" s="10.12990644439816" class="circle">
+      <style gradStartAlpha="1" gradStartColor="3247103" gradEndColor="3247103" color="3247103" borderColor="3247103" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="3247103" gradEndColor="3247103" color="3247103" borderColor="3247103" gradEndAlpha="1"/>
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="18_70778759" type="text" x="-121361.2400008448" y="119205.96792549467" r="-44.19717162506363" s="14.928236166711466" class="strong">
+      <height>57.6</height>
+      <width>400.4878006204159</width>
+      <p align="center">
+        <text><![CDATA[¿Por qué es importante ISO 9001 para su negocio?]]></text>
+      </p>
+    </object>
+    <object id="21_70778759" type="image" x="-119403.08432186843" y="121219.31896618257" r="-44.197171625063646" s="6.637395001795564">
+      <source w="294" h="300">4636626101<mask x="0" y="0" w="294" h="299"/>
+      <url>4636626101.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F1%2F3%2F2%2Fd0beccd63f4efa5a24f106c31d7b38e37ba81.png</sourceUrl>
+    <resource><id>4636626101</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/3/2/d0beccd63f4efa5a24f106c31d7b38e37ba81.png</url></resource></object>
+    <object id="19_70778759" type="text" x="-120613.50550326132" y="119974.68113403217" r="-44.197171625063646" s="11.215804783404556" class="body">
+      <height>82.79296875</height>
+      <width>589.1562140195758</width>
+      <p align="center">
+        <text><![CDATA[Para ayudar a las organizaciones a controlar y mejorar su rendimiento y conducirles hacia la eficiencia, servicio al cliente y excelencia en el producto.]]></text>
+      </p>
+    </object>
+    <object id="20_70778759" type="text" x="-118129.71006105319" y="122528.48442498567" r="-44.197171625063646" s="11.215804783404556" class="body">
+      <height>82.79296875</height>
+      <width>552</width>
+      <p align="center">
+        <text><![CDATA["Las organizaciones que aplican la norma ISO tienen mayores tasas de supervivencia, de ventas y de crecimiento de puestos de trabajo".]]></text>
+      </p>
+    </object>
+    <object id="22_70778759" type="button" x="-120010.55" y="121361.5" r="-51.36221048977683" s="0.6403053423627959" class="invisible">
+      <style gradStartAlpha="1" gradStartColor="3247103" gradEndColor="3247103" color="3247103" borderColor="3247103" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="3247103" gradEndColor="3247103" color="3247103" borderColor="3247103" gradEndAlpha="1"/>
+      <type>invisible</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="100_70778759" type="image" x="-119729.95" y="121333.65" r="-44.19717162506361" s="0.4565029885537759">
+      <source w="250" h="202">4636628275<url>4636628275.png</url></source>
+      <sourceUrl>clip.png</sourceUrl>
+    <resource><id>4636628275</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/5/e/2731581dd7a3b47ff53d38e6c6e1abb947a0e.png</url></resource></object>
+    <object id="23_70778759" type="text" x="-120146.6" y="121252.7" r="-51.362210489776835" s="1.2453374099361885" class="strong">
+      <height>28.8</height>
+      <width>347.204</width>
+      <p align="center">
+        <text><![CDATA[Los 8 principios fundamentales ]]></text>
+      </p>
+    </object>
+    <object id="24_70778759" type="text" x="-119984.14001227253" y="121370.4872701963" r="-51.362210489776835" s="1.0426111433535596" class="body">
+      <height>220.78125</height>
+      <width>454.7753078433325</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Enfoque al cliente.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Liderazgo.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Participación del personal.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Enfoque basado en los procesos.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Enfoque de sistema para la gestión.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Mejora continua.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Enfoque basado en la toma de decisiones.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Las buenas relaciones con el proveedor.]]></text>
+      </p>
+    </object>
+    <object id="29_70778759" type="button" x="-45266.65" y="108059.8" r="76.95968809880934" s="7.392190282628765" class="circle">
+      <style gradStartAlpha="1" gradStartColor="3247103" gradEndColor="3247103" color="3247103" borderColor="3247103" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="3247103" gradEndColor="3247103" color="3247103" borderColor="3247103" gradEndAlpha="1"/>
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="27_70778759" type="image" x="-45298.3" y="108032.25" r="-23.79403786575901" s="6.600698022899572">
+      <source w="497" h="640">4636424369<url>4636424369.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F5%2F6%2F2%2Ff047848f63931f83a1a7433fb27fdfc61273e.png</sourceUrl>
+    <resource><id>4636424369</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/6/2/f047848f63931f83a1a7433fb27fdfc61273e.png</url></resource></object>
+    <object id="30_70778759" type="button" x="-98775.65" y="165736.4" r="-24.127251047996353" s="10.94729979866553" class="circle">
+      <style gradStartAlpha="1" gradStartColor="3247103" gradEndColor="3247103" color="3247103" borderColor="3247103" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="3247103" gradEndColor="3247103" color="3247103" borderColor="3247103" gradEndAlpha="1"/>
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="31_70778759" type="text" x="-100056.4771766069" y="163204.40966152638" r="-24.12725104799633" s="16.853200275589103" class="strong">
+      <height>86.4</height>
+      <width>187.792</width>
+      <p align="center">
+        <text><![CDATA[Actividades para la implementación]]></text>
+      </p>
+    </object>
+    <object id="33_70778759" type="text" x="-98684.08381181138" y="166188.7151541507" r="-24.127251047996335" s="10.19618616673141" class="body">
+      <height>469.16015625</height>
+      <width>608.2023010706132</width>
+      <p>
+        <text><![CDATA[• Percepción por la dirección que establecer un sistema de gestión es esencial para el desarrollo y rentabilidad.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Decisión de la dirección de proporcionar recursos adecuados y suficientes]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Explicación a todo nivel del concepto y beneficios de un sistema de gestión.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Entrenamiento de todo el personal.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Difusión de la política.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Identificación de las actividades específicas a realizar y asignación de responsabilidades.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="36_70778759" type="button" x="-79081.05" y="166881.15" r="-24.12725104799635" s="13.013157845608392" class="circle">
+      <style gradStartAlpha="1" gradStartColor="3247103" gradEndColor="3247103" color="3247103" borderColor="3247103" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="3247103" gradEndColor="3247103" color="3247103" borderColor="3247103" gradEndAlpha="1"/>
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="39_70778759" type="image" x="-77357.7" y="163426.55" r="-24.12725104799635" s="3.8220919698507783">
+      <source w="341" h="148">4636449420<url>4636449420.jpg</url></source>
+      <sourceUrl>2.jpg</sourceUrl>
+    <resource><id>4636449420</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/2/d/32f074ff32a56083cdbc52c0f56c5198fb9d7.jpg</url></resource></object>
+    <object id="40_70778759" type="image" x="-76473.45000000001" y="168091.8" r="-24.127251047996346" s="5.0673249939557135">
+      <source w="550" h="451">4636450125<url>4636450125.jpg</url></source>
+      <sourceUrl>Identificacion-de-quejas-y-reclamaciones-en-el-call-center.jpg</sourceUrl>
+    <resource><id>4636450125</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/7/b/5ac4f6f436e61f5327e2ea444bac009a534bc.jpg</url></resource></object>
+    <object id="41_70778759" type="image" x="-79521.65" y="169456.35" r="-24.127251047996346" s="7.454402362598486">
+      <source w="505" h="305">4636450835<url>4636450835.jpg</url></source>
+      <sourceUrl>buenas_relaciones.jpg</sourceUrl>
+    <resource><id>4636450835</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/a/6/984dd66797ff657434a7c1d26ccced79fe217.jpg</url></resource></object>
+    <object id="37_70778759" type="text" x="-80378.14833326152" y="163879.6202693923" r="-24.12725104799635" s="16" class="strong">
+      <height>28.8</height>
+      <width>-351.264</width>
+      <p>
+        <text><![CDATA[Beneficios de la implementación ]]></text>
+      </p>
+    </object>
+    <object id="38_70778759" type="text" x="-79299.05" y="166220.75" r="-24.127251047996346" s="14.545454545454545" class="body">
+      <height>275.9765625</height>
+      <width>560.353985081503</width>
+      <p>
+        <text><![CDATA[• Creación de la cultura de calidad]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Incremento de la eficiencia operativa y de la productividad]]></text>
+      </p>
+      <p>
+        <text><![CDATA[•Disminución de los problemas en la realización de productos o servicios]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Reducción de las quejas de los clientes]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Mejoramiento de la imagen de la organización]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Mayor credibilidad de los clientes]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Mejoramiento de las relaciones humanas]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="44_70778759" type="text" x="70334.35413794695" y="-144894.34698969757" r="18.083367422899347" s="6.510245196053648" class="strong">
+      <height>28.8</height>
+      <width>207.36398697582405</width>
+      <p>
+        <text><![CDATA[¿Por qué certificar?]]></text>
+      </p>
+    </object>
+    <object id="46_70778759" type="text" x="70259.11970967724" y="-144516.416587716" r="18.083367422899396" s="2.5693087082618433" class="body">
+      <height>193.18359375</height>
+      <width>587.5840241969933</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[ Controlar sus procesos internos.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Dan garantía a sus clientes sobre los productos y/o servicios que brindan.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Permite acceder a mercados que exigen normas internacionales de calidad.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Mejora las relaciones mutuas con proveedores]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="47_70778759" type="image" x="70063.39298705537" y="-144122.829920552" r="18.083367422899325" s="1.8269099973653755">
+      <source w="583" h="412">4636662638<mask x="0" y="109" w="583" h="192"/>
+      <url>4636662638.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2Fb%2Fc%2Fb%2F9ab0d09dee44c975a68ee070d2678bf6baa78.png</sourceUrl>
+    <resource><id>4636662638</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/c/b/9ab0d09dee44c975a68ee070d2678bf6baa78.png</url></resource></object>
+    <object id="57_70778759" type="button" x="171381.89999999997" y="19687.349999999995" r="21.481094396083098" s="18.645320902497133" class="circle">
+      <style gradStartAlpha="1" gradStartColor="3288169" gradEndColor="3288169" color="3288169" borderColor="3288169" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="3288169" gradEndColor="3288169" color="3288169" borderColor="3288169" gradEndAlpha="1"/>
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="79_70778759" type="image" x="167878.79885201852" y="17764.999953959777" r="16.33416657061095" s="23.189277650991208">
+      <source w="180" h="240">4636581872<url>4636581872.jpg</url></source>
+      <sourceUrl>122.jpg</sourceUrl>
+    <resource><id>4636581872</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/4/5/b8696c2e8e978589415a964b1d3b18f0a3f07.jpg</url></resource></object>
+    <object id="52_70778759" type="text" x="145591.95643102843" y="4735.130636749269" r="6.346380751783036" s="119.42588933369171" class="body">
+      <height>110.390625</height>
+      <width>552</width>
+      <p align="center">
+        <text><![CDATA[El estándar IEEE 730 es una recomendación para elaborar un plan de aseguramiento de la calidad del software (SQAP) para los proyectos de desarrollado de software.]]></text>
+      </p>
+    </object>
+    <object id="53_70778759" type="button" x="119098.80000000002" y="15449.099999999995" r="-49.39176566330292" s="24.222599806073106" class="circle">
+      <style gradStartAlpha="1" gradStartColor="3288169" gradEndColor="3288169" color="3288169" borderColor="3288169" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="3288169" gradEndColor="3288169" color="3288169" borderColor="3288169" gradEndAlpha="1"/>
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="56_70778759" type="image" x="119828.5334384715" y="10525.210707347736" r="-49.39176566330294" s="24.565633007776682">
+      <source w="225" h="225">4636576703<url>4636576703.jpg</url></source>
+      <sourceUrl>100.jpg</sourceUrl>
+    <resource><id>4636576703</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/6/8/45b0ab7fc528b3da966c7cc9ca51a82f805b8.jpg</url></resource></object>
+    <object id="54_70778759" type="text" x="114239.09890942798" y="11113.940073169197" r="-49.39176566330291" s="49.966002870897235" class="strong">
+      <height>57.6</height>
+      <width>227.164</width>
+      <p align="center">
+        <text><![CDATA[Las actividades principales del SQA ]]></text>
+      </p>
+    </object>
+    <object id="55_70778759" type="text" x="120408.18966568683" y="15377.29789369361" r="-49.39176566330292" s="34.127452271632535" class="body">
+      <height>331.171875</height>
+      <width>-458.90625</width>
+      <p>
+        <text><![CDATA[• Gestión]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Documentación]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Mediciones]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Revisiones]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Testing]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Informes de problemas y Acciones correctivas]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Control de medio de Comunicación]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Control de Proveedores]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Gestión de Registros]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Capacitación]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Gestión de Riesgos.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="75_70778759" type="text" x="173049.81388056214" y="15143.029073962725" r="21.481094396083105" s="43.71286114336451" class="strong">
+      <height>28.8</height>
+      <width>-100.584</width>
+      <p>
+        <text><![CDATA[Plan SQA]]></text>
+      </p>
+    </object>
+    <object id="77_70778759" type="text" x="173356.90029100556" y="20393.442752779676" r="28.76446368783435" s="16.970383088340288" class="body">
+      <height>331.171875</height>
+      <width>528.8680271927637</width>
+      <p>
+        <text><![CDATA[Propósito:]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Delinea el propósito específico y el alcance del plan SQA.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Lista los nombres de los elementos software cubiertos por el plan SQA y el uso de dichos elementos.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Determina la porción del ciclo de vida cubierta por el plan para cada elemento software.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Documentos de referencia]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Proporciona una lista completa de los documentos referenciados en el plan o utilizados en su elaboración.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="83_70778759" type="button" x="146940.85" y="-10294" r="6.346380751783038" s="19.101400509957227" class="circle">
+      <style gradStartAlpha="1" gradStartColor="3288169" gradEndColor="3288169" color="3288169" borderColor="3288169" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="3288169" gradEndColor="3288169" color="3288169" borderColor="3288169" gradEndAlpha="1"/>
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="88_70778759" type="image" x="147082.9" y="-11572.599999999995" r="6.346380751783037" s="11.802077356328848">
+      <source w="532" h="323">4636602076<url>4636602076.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F5%2F2%2F5%2F1659f85e57c1c0417e4396b9eb22df1c1520c.png</sourceUrl>
+    <resource><id>4636602076</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/2/5/1659f85e57c1c0417e4396b9eb22df1c1520c.png</url></resource></object>
+    <object id="85_70778759" type="text" x="147342.36260421813" y="-14312.302779333677" r="6.346380751783036" s="59.85855653293725" class="strong">
+      <height>28.8</height>
+      <width>-146.064</width>
+      <p>
+        <text><![CDATA[Organización]]></text>
+      </p>
+    </object>
+    <object id="87_70778759" type="text" x="147299.9963846635" y="-7101.087784894852" r="6.346380751783037" s="23.07806478621221" class="body">
+      <height>165.5859375</height>
+      <width>538.1363636363636</width>
+      <p>
+        <text><![CDATA[• La porción del ciclo de vida cubierta por el plan SQA.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Las tareas a desarrollar.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Los criterios de entrada y salida para cada tarea.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Las relaciones entre estas tareas y los principales puntos de control planeados.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="89_70778759" type="button" x="127142.4" y="-8644.900000000001" r="6.346380751783038" s="10.688056558970256" class="circle">
+      <style gradStartAlpha="1" gradStartColor="3288169" gradEndColor="3288169" color="3288169" borderColor="3288169" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="3288169" gradEndColor="3288169" color="3288169" borderColor="3288169" gradEndAlpha="1"/>
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="90_70778759" type="text" x="127330.5859649114" y="-10874.594805167186" r="6.346380751783036" s="31.99999999999999" class="strong">
+      <height>28.8</height>
+      <width>-171.912</width>
+      <p>
+        <text><![CDATA[Documentación]]></text>
+      </p>
+    </object>
+    <object id="91_70778759" type="text" x="127211.00450032038" y="-9729.458688055205" r="6.346380751783038" s="12.33738526174501" class="body">
+      <height>55.1953125</height>
+      <width>608.7001214066099</width>
+      <p>
+        <text><![CDATA[Describe toda la documentación que se va a generar durante el proceso de desarrollo.]]></text>
+      </p>
+    </object>
+    <object id="92_70778759" type="text" x="128272.64999999998" y="-7475.250000000003" r="6.346380751783039" s="12.33738526174501" class="body">
+      <height>248.37890625</height>
+      <width>595.0671875</width>
+      <p>
+        <text><![CDATA[Requisitos mínimos de documentación]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Descripción de requisitos software.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Descripción del diseño del software.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Planes de verificación y validación.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Informe de resultados de verificación e informe de resultados de validación]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Documentación de usuario.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Plan de gestión de la configuración software.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="95_70778759" type="button" x="164415.90000000002" y="-5583.199999999995" r="1.452225923794303" s="11.869766081794939" class="circle">
+      <style gradStartAlpha="1" gradStartColor="3288169" gradEndColor="3288169" color="3288169" borderColor="3288169" gradEndAlpha="1"/>
+      <style gradStartAlpha="1" gradStartColor="3288169" gradEndColor="3288169" color="3288169" borderColor="3288169" gradEndAlpha="1"/>
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="96_70778759" type="text" x="165876.06699126854" y="-5416.279108778016" r="1.4522259237943018" s="14.928236166711482" class="body">
+      <height>193.18359375</height>
+      <width>578.4134998884781</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Planes de validación y verificación]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Documentación de usuario]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Plan de gestión de la configuración software]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Plan de proceso de desarrollo.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Métricas aplicables al proyecto.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Revisiones del software]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Gestión del riesgo]]></text>
+      </p>
+    </object>
+    <object id="97_70778759" type="image" x="163366.85" y="-2852.4499999999985" r="1.4522259237943038" s="4.236825199009739">
+      <source w="397" h="478">4636617010<url>4636617010.GIF</url></source>
+      <sourceUrl>CAIDA%20001.GIF</sourceUrl>
+    <resource><id>4636617010</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/7/8/f04a5de65ed5dd6beaaad39a1bba9b24420c6.GIF</url></resource></object>
+    <object id="98_70778759" type="image" x="164426.75000000003" y="-8660" r="1.452225923794302" s="6.336021156411565">
+      <source w="251" h="320">4636617734<url>4636617734.gif</url></source>
+      <sourceUrl>a1a790f406704f3d9992c4b1b805cecf.gif</sourceUrl>
+    <resource><id>4636617734</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/c/e/0bc6899ea0679df5d91bfd5664d0a86d43cd4.gif</url></resource></object>
+    <object id="101_70778759" type="text" x="-50402.05496968088" y="94539.13179823446" r="-23.027642628448344" s="0.504205680144325" class="body">
+      <height>137.98828125</height>
+      <width>-313.08984375</width>
+      <p listType="bullet" indent="1">
+        <text style="italic"><![CDATA[El Tipo]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text style="italic"><![CDATA[Tamaño de la Organización]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text style="italic"><![CDATA[Requisitos de los Clientes]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text style="italic"><![CDATA[Complejidad de los procesos]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text style="italic"><![CDATA[Formación del Personal]]></text>
+      </p>
+    </object>
+    <object id="102_70778759" type="button" x="29899.799999999996" y="-114659.55000000002" r="-10.321728336820772" s="175.00897627446008" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="104_70778759" type="text" x="24818.79725709481" y="-154996.65667604614" r="0" s="347.66099067309176" class="strong">
+      <height>57.6</height>
+      <width>186.72981219267604</width>
+      <p align="center">
+        <text><![CDATA[LA CALIDAD DEL PROCESO ]]></text>
+      </p>
+    </object>
+    <object id="105_70778759" type="text" x="31290.000000000007" y="-124676.1" r="1.874895391814036e-15" s="217.1379806067122" class="body">
+      <height>137.98828125</height>
+      <width>558.9519154934562</width>
+      <p>
+        <text><![CDATA[La calidad vista desde el mundo de los procesos nos dice que la calidad del]]></text>
+      </p>
+      <p>
+        <text><![CDATA[Producto software está determinada por la calidad del proceso. ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="106_70778759" type="text" x="33765.96678914191" y="-104673.10609999727" r="0" s="347.66099067309176" class="strong">
+      <height>28.8</height>
+      <width>-334.79999999999995</width>
+      <p>
+        <text><![CDATA[LA CALIDAD DEL PRODUCTO ]]></text>
+      </p>
+    </object>
+    <object id="111_70778759" type="button" x="-16681.6" y="-148390.9" r="0" s="15.086582449990539" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="112_70778759" type="text" x="-16682.826749495867" y="-152399.85891041567" r="0" s="23.40168348567819" class="strong">
+      <height>86.4</height>
+      <width>220.74681486683713</width>
+      <p align="center">
+        <text><![CDATA[GESTIÓN DE LA CALIDAD DEL SOFTWARE  ]]></text>
+      </p>
+    </object>
+    <object id="117_70778759" type="button" x="-16736.45" y="-144083.9" r="0" s="3.3621254510147183" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="113_70778759" type="text" x="-16382.53887080097" y="-149717.15077637607" r="0" s="14.928236166711466" class="body">
+      <height>165.5859375</height>
+      <width>700.6144946153372</width>
+      <p>
+        <text><![CDATA[Es una actividad esencial en cualquier empresa de software para asegurar la calidad de sus productos, y la competitividad frente a la oferta del mercado. ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[Es un conjunto de actividades de la función general de la Dirección que determina la calidad, los objetivos y las responsabilidades. ]]></text>
+      </p>
+    </object>
+    <object id="114_70778759" type="text" x="-16425.476395785532" y="-146021.6" r="0" s="14.928236166711466" class="body">
+      <height>137.98828125</height>
+      <width>441.9048967633932</width>
+      <p>
+        <text><![CDATA[• Planificación de la Calidad del Software.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Control de la Calidad del Software]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Aseguramiento de la Calidad del Software ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[• Mejora de la Calidad del Software. ]]></text>
+      </p>
+      <p indent="2">
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="115_70778759" type="text" x="-17579.28341137123" y="-147740.4770936071" r="0" s="14.928236166711466" class="body">
+      <height>55.1953125</height>
+      <width>540.2</width>
+      <p>
+        <text><![CDATA[La Gestión de la Calidad del Software está formada por 4 partes que son: ]]></text>
+      </p>
+    </object>
+    <object id="119_70778759" type="text" x="32845.859946690536" y="-81339.03438586474" r="0" s="169.09562187934034" class="body">
+      <height>165.5859375</height>
+      <width>635.0098707836695</width>
+      <p align="center">
+        <text><![CDATA[La implantación de un Modelo o Estándar requiere de una Gestión de la Calidad del Software. La Calidad se logra a través de la Gestión de la Calidad, la cual, según ISO 9000:2000, consiste en la realización de actividades coordinadas que permiten dirigir y controlar una organización en lo relativo a la calidad. ]]></text>
+      </p>
+    </object>
+    <object id="120_70778759" type="text" x="32378.84641161314" y="-63472.20982223795" r="0" s="22.43160956680911" class="strong">
+      <height>28.8</height>
+      <width>-471.048</width>
+      <p>
+        <text><![CDATA[ESTANDARES DE CALIDAD DE SOFTWARE ]]></text>
+      </p>
+    </object>
+    <object id="123_70778759" type="button" x="-117660.24999999999" y="27065.499999999996" r="-10.321728336820772" s="38.87160850328678" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="121_70778759" type="text" x="-118766.49999999999" y="21063.7" r="-10.321728336820781" s="153.66693934924632" class="strong">
+      <height>28.8</height>
+      <width>-130.584</width>
+      <p>
+        <text><![CDATA[CMM-Quest]]></text>
+      </p>
+    </object>
+    <object id="122_70778759" type="text" x="-116865.79999999999" y="29041.200000000008" r="-10.321728336820774" s="46.87035223053425" class="body">
+      <height>137.98828125</height>
+      <width>-460.5234375</width>
+      <p>
+        <text><![CDATA[Se   asignan   valores   a   los   objetivos,   no   ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[permite  valoraciones  a  nivel  de  prácticas  ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[generales    y    especificas.    Su    utilización    ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[presenta un grado medio de dificultad.]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="124_70778759" type="button" x="-81850.5" y="35017.95" r="-10.321728336820772" s="38.87160850328678" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="125_70778759" type="text" x="-82930.12380593228" y="27347.517672189377" r="-10.321728336820772" s="129.13534531986897" class="strong">
+      <height>28.8</height>
+      <width>-166.48800000000003</width>
+      <p>
+        <text><![CDATA[KMKey Quality ]]></text>
+      </p>
+    </object>
+    <object id="126_70778759" type="text" x="-82024.74294618721" y="31885.253839413985" r="-10.32172833682078" s="45.261150742037046" class="body">
+      <height>82.79296875</height>
+      <width>552</width>
+      <p>
+        <text><![CDATA[Es un software de gestión de calidad. Ideal para la implantación y mantenimiento de un sistema de gestión de calidad (SGC) de cualquier tipo ISO  9001. ]]></text>
+      </p>
+    </object>
+    <object id="127_70778759" type="button" x="-80526.8" y="41608.6" r="-10.321728336820772" s="19.100695053992737" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="128_70778759" type="text" x="-80270.95" y="43447" r="-10.32172833682078" s="21.077864270090327" class="body">
+      <height>496.7578125</height>
+      <width>552</width>
+      <p>
+        <text><![CDATA[Dentro de los parámetros especificados KMKey Quality otorga:]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Gestión de la documentación.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Organización de documentos.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Acciones preventivas.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Acciones correctivas.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Acciones de mejora.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Acciones de no conformidad.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Auditorias.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Objetivos.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Indicadores.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Revisiones por la dirección.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Seguimiento de satisfacción del cliente.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Satisfacción de los usuarios por los servicios.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Calibraciones.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Reclamaciones.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[• Riesgos.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="129_70778759" type="button" x="-88712.05" y="6374.7" r="-10.32172833682078" s="29.67957394363932" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="130_70778759" type="text" x="-90796.93767430104" y="-89.82711204541192" r="-10.321728336820785" s="90.08866118846545" class="strong">
+      <height>28.8</height>
+      <width>-137.4</width>
+      <p>
+        <text><![CDATA[Checking QA]]></text>
+      </p>
+    </object>
+    <object id="131_70778759" type="text" x="-89089.5" y="4989.7" r="-10.321728336820785" s="38.2063866523939" class="body">
+      <height>165.5859375</height>
+      <width>533.9</width>
+      <p align="center">
+        <text><![CDATA[es un sistema de gestión de certificación de la calidad del software, que funciona como un portal integrado que permite: el análisis y medición de la calidad del software, la gestión del proceso de certificación de los entregables del ciclo de vida de los desarrollos software]]></text>
+      </p>
+    </object>
+  </zui-table>
+  <background>
+    <layer depth="89.05462791422138" fadescale="0.024703937925820887">
+      <object id="background184780650" type="image" x="27476.21906421548" y="71262.67240963317" r="0" s="135.8625380007667">
+        <source w="3000" h="2250">184780650<url>184780650.jpg</url></source>
+        <sourceUrl>lightbulb.jpg</sourceUrl>
+      <resource><id>184780650</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/0/c/fe87ea529e9189f25ac7d436bde9ac8a4d75e.jpg</url></resource></object>
+    </layer>
+  </background>
+  <path>
+    <s>
+      <eagle o="0_15277798"/>
+    </s>
+    <s>
+      <buildin o="0_13415665"/>
+    </s>
+    <s>
+      <buildin o="10"/>
+    </s>
+    <s>
+      <buildin o="5"/>
+    </s>
+    <s>
+      <buildin o="7"/>
+    </s>
+    <s>
+      <buildin o="1"/>
+    </s>
+    <s>
+      <buildin o="8"/>
+    </s>
+    <s>
+      <buildin o="151_70778759"/>
+    </s>
+    <s>
+      <buildin o="9"/>
+    </s>
+    <s>
+      <buildin o="3"/>
+    </s>
+    <s>
+      <buildin o="6"/>
+    </s>
+    <s>
+      <buildin o="2"/>
+    </s>
+    <s>
+      <eagle o="102_70778759"/>
+    </s>
+    <s>
+      <eagle o="5"/>
+    </s>
+    <s>
+      <buildin o="7_30863873"/>
+    </s>
+    <s>
+      <eagle o="43_70778759"/>
+    </s>
+    <s>
+      <eagle o="8_70778759"/>
+    </s>
+    <s>
+      <buildin o="10_70778759"/>
+    </s>
+    <s>
+      <buildin o="16_70778759"/>
+    </s>
+    <s>
+      <eagle o="111_70778759"/>
+    </s>
+    <s>
+      <eagle o="117_70778759"/>
+    </s>
+    <s>
+      <eagle o="118_70778759"/>
+    </s>
+    <s>
+      <eagle o="1"/>
+    </s>
+    <s>
+      <buildin o="25_4"/>
+    </s>
+    <s>
+      <eagle o="4"/>
+    </s>
+    <s>
+      <eagle o="58_70778759"/>
+    </s>
+    <s>
+      <eagle o="59_70778759"/>
+    </s>
+    <s>
+      <eagle o="61_70778759"/>
+    </s>
+    <s>
+      <eagle o="84_70778759"/>
+    </s>
+    <s>
+      <eagle o="2_70778759"/>
+    </s>
+    <s>
+      <eagle o="5_70778759"/>
+    </s>
+    <s>
+      <eagle o="7_70778759"/>
+    </s>
+    <s>
+      <eagle o="17_70778759"/>
+    </s>
+    <s>
+      <eagle o="22_70778759"/>
+    </s>
+    <s>
+      <eagle o="29_70778759"/>
+    </s>
+    <s>
+      <eagle o="36_70778759"/>
+    </s>
+    <s>
+      <eagle o="30_70778759"/>
+    </s>
+    <s>
+      <eagle o="151_70778759"/>
+    </s>
+    <s>
+      <buildin o="153_70778759"/>
+    </s>
+    <s>
+      <eagle o="155_70778759"/>
+    </s>
+    <s>
+      <eagle o="154_70778759"/>
+    </s>
+    <s>
+      <eagle o="156_70778759"/>
+    </s>
+    <s>
+      <eagle o="12_70778759"/>
+    </s>
+    <s>
+      <eagle o="3"/>
+    </s>
+    <s>
+      <eagle o="53_70778759"/>
+    </s>
+    <s>
+      <eagle o="57_70778759"/>
+    </s>
+    <s>
+      <eagle o="83_70778759"/>
+    </s>
+    <s>
+      <eagle o="89_70778759"/>
+    </s>
+    <s>
+      <eagle o="95_70778759"/>
+    </s>
+    <s>
+      <eagle o="123_70778759"/>
+    </s>
+    <s>
+      <eagle o="124_70778759"/>
+    </s>
+    <s>
+      <eagle o="127_70778759"/>
+    </s>
+    <s>
+      <eagle o="2"/>
+    </s>
+    <s>
+      <eagle o="129_70778759"/>
+    </s>
+    <s>
+      <eagle o="0_15277798"/>
+    </s>
+    <s>
+      <eagle o="0_15277798"/>
+    </s>
+  </path>
+  <sound bgTrackId="4634457680">
+    <t id="4634457680" url="74d914071f94bc0e4c9223fa51b1010dbed0c.mp3" type="audio/mpeg" name="AFI - Miss Murder (Short Version) - YouTube.mp3" length="203468" resource="http://0103.static.prezi.com.s3.amazonaws.com/media/6/c/c/74d914071f94bc0e4c9223fa51b1010dbed0c.mp3"/>
+  </sound>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('Tinos-Regular.keg');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Tinos;
+}
+
+@font-face
+{
+	src: url('Arsenal-Regular.keg');
+	fontFamily: head;
+	font-class: head;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Arsenal;
+}
+
+@font-face
+{
+	src: url('Heuristica-Italic.keg');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: italic;
+	font-weight: normal;
+	font-family: Heuristica;
+}
+
+@font-face
+{
+	src: url('Tinos-Bold.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: Tinos;
+}
+
+@font-face
+{
+	src: url('Tinos-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: Tinos;
+}
+
+@font-face
+{
+	src: url('Tinos-BoldItalic.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: Tinos;
+}
+
+@font-face
+{
+	src: url('Arsenal-Bold.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: Arsenal;
+}
+
+@font-face
+{
+	src: url('Arsenal-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: Arsenal;
+}
+
+@font-face
+{
+	src: url('Arsenal-BoldItalic.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: Arsenal;
+}
+
+@font-face
+{
+	src: url('Heuristica-Regular.keg');
+	font-style: normal;
+	font-weight: normal;
+	font-family: Heuristica;
+}
+
+@font-face
+{
+	src: url('Heuristica-Bold.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: Heuristica;
+}
+
+@font-face
+{
+	src: url('Heuristica-BoldItalic.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: Heuristica;
+}
+
+.line1
+{
+	color: #b33e71;
+	gradEndColor: #b33e71;
+	gradStartColor: #b33e71;
+}
+
+.line2
+{
+	color: #bd8ab7;
+	gradEndColor: #bd8ab7;
+	gradStartColor: #bd8ab7;
+}
+
+.line3
+{
+	color: #6bb8d6;
+	gradEndAlpha: 1;
+	gradEndColor: #6bb8d6;
+	gradStartAlpha: 1;
+	gradStartColor: #6bb8d6;
+}
+
+.line4
+{
+	color: #fc0;
+	gradEndColor: #fc0;
+	gradStartColor: #fc0;
+}
+
+.line5
+{
+	color: #46353c;
+	gradEndColor: #46353c;
+	gradStartColor: #46353c;
+}
+
+.poly1
+{
+	borderAlpha: 1;
+	borderColor: #b33e71;
+	borderThickness: 8;
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+.poly2
+{
+	color: #fff;
+	gradEndColor: #b33e71;
+	gradStartColor: #b33e71;
+}
+
+.poly3
+{
+	borderColor: #6bb8d6;
+	borderThickness: 8;
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+.poly4
+{
+	borderColor: #6bb8d6;
+	borderThickness: 0;
+	gradEndColor: #6bb8d6;
+	gradStartColor: #6bb8d6;
+}
+
+.poly5
+{
+	borderColor: #46353c;
+	borderThickness: 8;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+Background
+{
+	gradEnd: #fff;
+	gradStart: #fff;
+}
+
+Grid
+{
+	color: #b8b8b8;
+}
+
+ZArrow
+{
+	borderColor: #fff;
+	borderThickness: -1;
+	gradEndColor: #000;
+	gradStartColor: #000;
+	lockTintAlpha: 0;
+	thickness: 7;
+}
+
+ZCircle
+{
+	borderAlpha: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	color: #000;
+}
+
+ZFrame.bracket
+{
+	borderColor: #fff;
+	borderThickness: 0;
+	gradEndColor: #c5c3c3;
+	gradStartColor: #c5c3c3;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.circle
+{
+	borderColor: #b33e71;
+	borderThickness: 0;
+	gradEndColor: #b33e71;
+	gradStartColor: #b33e71;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.roundrect
+{
+	borderColor: #fc0;
+	borderThickness: 0;
+	gradEndAlpha: 0.2;
+	gradEndColor: #fc0;
+	gradStartAlpha: 0.5;
+	gradStartColor: #fc0;
+	padding: 1.03;
+	radius: 3;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.15;
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #333;
+	fontFamily: body;
+}
+
+ZLabel.head
+{
+	color: #640f1e;
+	fontFamily: head;
+}
+
+ZLabel.strong
+{
+	color: #194a99;
+	fontFamily: strong;
+}
+
+ZLine
+{
+	alpha: 1;
+	color: #000;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+}
+
+ZMarker
+{
+	alpha: 0.3;
+	color: #fc0;
+}
+
+ZPoly
+{
+	borderAlpha: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+]]></style>
+  <hash>-7c1c238c</hash>
+<sync><oid>osvgd2r0o5vz</oid><title>certificacion-de-sistemas-de-gestion</title><hash>-7c1c238c</hash></sync><config>XcyRqWwmieyKOCDHO7DgJJzOYsb7FXkiEKUpJfAjE8bEdrpYlMy+KKXKMyB6mnFUDuVw/Q3G9S4pRC7GdVKHB4NGS++Zg3Dp7e5VCIp+uN5fxShv16CGaYUr3pelf5oQxPCYkxnc43F4p936UrKYuG1uCbaO176kTOZPv1tVKg+ynk+8joWaT/ETRYe//f6WkBDyE/creZXf8IDgQ6xH5n+DrXfAZ04yFb4gJX9+tziL3uYjP9zHs7SENyPngxOLmXiIeAeiMn2sRoGTn3IcxbEy7yb30UBHKtN4SFByoqgyURzjwLaWFO/wD4s0TdBj2qe97vMn0oh/1HtyuUMIqw==</config></zuiprezi>

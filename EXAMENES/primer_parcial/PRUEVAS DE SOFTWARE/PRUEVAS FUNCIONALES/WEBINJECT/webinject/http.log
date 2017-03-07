@@ -1,0 +1,227 @@
+GET http://ec2-54-218-36-89.us-west-2.compute.amazonaws.com/basic/web/
+User-Agent: WebInject
+
+
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 28 Jun 2016 20:48:17 GMT
+Server: Apache/2.4.10 (Ubuntu)
+Vary: Accept-Encoding
+Content-Length: 4125
+Content-Type: text/html; charset=UTF-8
+Client-Date: Tue, 28 Jun 2016 20:48:19 GMT
+Client-Peer: 54.218.36.89:80
+Client-Response-Num: 1
+Link: </basic/web/assets/e690f5af/css/bootstrap.css>; rel="stylesheet"
+Link: </basic/web/css/site.css>; rel="stylesheet"
+Set-Cookie: _csrf=32917c8378914ccc521eb5440e9c25ece5ba0a714d6d119438469bbdd738bc89a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sAzs9eN72T5gZzaWT1m2ARhGMlN79XvM%22%3B%7D; path=/; httponly
+Title: My Yii Application
+X-Meta-Csrf-Param: _csrf
+X-Meta-Csrf-Token: LmFOQnpOb2JdIDQxQyshVRw1eyUgNA41elAjcDscByVjDQB1QxYZLw==
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Powered-By: PHP/5.5.9-1ubuntu4.17
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="LmFOQnpOb2JdIDQxQyshVRw1eyUgNA41elAjcDscByVjDQB1QxYZLw==">
+    <title>My Yii Application</title>
+    <link href="/basic/web/assets/e690f5af/css/bootstrap.css" rel="stylesheet">
+<link href="/basic/web/css/site.css" rel="stylesheet"></head>
+<body>
+
+<div class="wrap">
+    <nav id="w0" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/basic/web/index.php">My Company</a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li class="active"><a href="/basic/web/index.php?r=site%2Findex">Home</a></li>
+<li><a href="/basic/web/index.php?r=site%2Fabout">About</a></li>
+<li><a href="/basic/web/index.php?r=site%2Fcontact">Contact</a></li>
+<li><a href="/basic/web/index.php?r=site%2Flogin">Login</a></li></ul></div></div></nav>
+    <div class="container">
+                <div class="site-index">
+
+    <div class="jumbotron">
+        <h1>Congratulations!</h1>
+
+        <p class="lead">You have successfully created your Yii-powered application.</p>
+
+        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+    </div>
+
+    <div class="body-content">
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>Heading</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.</p>
+
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Heading</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.</p>
+
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Heading</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.</p>
+
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; My Company 2016</p>
+
+        <p class="pull-right">Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></p>
+    </div>
+</footer>
+
+<script src="/basic/web/assets/c9590fd/jquery.js"></script>
+<script src="/basic/web/assets/90bc1cc0/yii.js"></script>
+<script src="/basic/web/assets/e690f5af/js/bootstrap.js"></script></body>
+</html>
+
+
+
+************************* LOG SEPARATOR *************************
+
+
+GET http://ec2-54-218-36-89.us-west-2.compute.amazonaws.com/basic/web/
+User-Agent: WebInject
+Cookie: _csrf=32917c8378914ccc521eb5440e9c25ece5ba0a714d6d119438469bbdd738bc89a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sAzs9eN72T5gZzaWT1m2ARhGMlN79XvM%22%3B%7D
+Cookie2: $Version="1"
+
+
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Tue, 28 Jun 2016 20:48:20 GMT
+Server: Apache/2.4.10 (Ubuntu)
+Vary: Accept-Encoding
+Content-Length: 4125
+Content-Type: text/html; charset=UTF-8
+Client-Date: Tue, 28 Jun 2016 20:48:21 GMT
+Client-Peer: 54.218.36.89:80
+Client-Response-Num: 1
+Link: </basic/web/assets/e690f5af/css/bootstrap.css>; rel="stylesheet"
+Link: </basic/web/css/site.css>; rel="stylesheet"
+Title: My Yii Application
+X-Meta-Csrf-Param: _csrf
+X-Meta-Csrf-Token: UGZFNFRmLlYjJz9HbQNgYWIycFMOHE8BBFcoBhU0RhEdCgsDbT5YGw==
+X-Meta-Viewport: width=device-width, initial-scale=1
+X-Powered-By: PHP/5.5.9-1ubuntu4.17
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="UGZFNFRmLlYjJz9HbQNgYWIycFMOHE8BBFcoBhU0RhEdCgsDbT5YGw==">
+    <title>My Yii Application</title>
+    <link href="/basic/web/assets/e690f5af/css/bootstrap.css" rel="stylesheet">
+<link href="/basic/web/css/site.css" rel="stylesheet"></head>
+<body>
+
+<div class="wrap">
+    <nav id="w0" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/basic/web/index.php">My Company</a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li class="active"><a href="/basic/web/index.php?r=site%2Findex">Home</a></li>
+<li><a href="/basic/web/index.php?r=site%2Fabout">About</a></li>
+<li><a href="/basic/web/index.php?r=site%2Fcontact">Contact</a></li>
+<li><a href="/basic/web/index.php?r=site%2Flogin">Login</a></li></ul></div></div></nav>
+    <div class="container">
+                <div class="site-index">
+
+    <div class="jumbotron">
+        <h1>Congratulations!</h1>
+
+        <p class="lead">You have successfully created your Yii-powered application.</p>
+
+        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+    </div>
+
+    <div class="body-content">
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>Heading</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.</p>
+
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Heading</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.</p>
+
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Heading</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.</p>
+
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; My Company 2016</p>
+
+        <p class="pull-right">Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></p>
+    </div>
+</footer>
+
+<script src="/basic/web/assets/c9590fd/jquery.js"></script>
+<script src="/basic/web/assets/90bc1cc0/yii.js"></script>
+<script src="/basic/web/assets/e690f5af/js/bootstrap.js"></script></body>
+</html>
+
+
+
+************************* LOG SEPARATOR *************************
+
+

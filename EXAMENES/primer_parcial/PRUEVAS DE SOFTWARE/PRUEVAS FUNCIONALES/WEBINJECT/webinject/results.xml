@@ -1,0 +1,67 @@
+<results>
+
+    <testcases file="testcases.xml">
+
+        <testcase id="1">
+            <description1>SAMPLE TEST CASE - load WebInject dev page</description1>
+            <description2>verify string 'Corey Goldberg' exists in response</description2>
+            <verifypositive>Corey Goldberg</verifypositive>
+            <verifypositive-success>false</verifypositive-success>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification (not in error range)</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>TEST CASE FAILED</result-message>
+            <responsetime>0.472</responsetime>
+        </testcase>
+
+        <testcase id="2">
+            <description1>SAMPLE [NEGATIVE] TEST CASE - load WebInject dev page</description1>
+            <description2>verify string 'bogus string' does not exist in response</description2>
+            <verifynegative>bogus string</verifynegative>
+            <verifynegative-success>true</verifynegative-success>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification (not in error range)</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.903</responsetime>
+        </testcase>
+
+        <testcase id="3">
+            <description1>SAMPLE TEST CASE THAT FAILS - load bogus page</description1>
+            <description2>case should fail with an HTTP 404 (not found) error</description2>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification (not in error range)</verifyresponsecode-message>
+            <success>true</success>
+            <result-message>TEST CASE PASSED</result-message>
+            <responsetime>0.729</responsetime>
+        </testcase>
+
+        <testcase id="4">
+            <description1>SAMPLE TEST CASE THAT FAILS - valid page with bogus verification</description1>
+            <description2>case should fail</description2>
+            <verifypositive>I am a bogus string</verifypositive>
+            <verifypositive-success>false</verifypositive-success>
+            <verifyresponsecode-success>true</verifyresponsecode-success>
+            <verifyresponsecode-message>Passed HTTP Response Code Verification (not in error range)</verifyresponsecode-message>
+            <success>false</success>
+            <result-message>TEST CASE FAILED</result-message>
+            <responsetime>0.47</responsetime>
+        </testcase>
+
+    
+    </testcases>
+
+    <test-summary>
+        <start-time>Tue Jun 28 16:48:18 2016</start-time>
+        <total-run-time>3.334</total-run-time>
+        <test-cases-run>4</test-cases-run>
+        <test-cases-passed>2</test-cases-passed>
+        <test-cases-failed>2</test-cases-failed>
+        <verifications-passed>5</verifications-passed>
+        <verifications-failed>2</verifications-failed>
+        <average-response-time>0.643</average-response-time>
+        <max-response-time>0.903</max-response-time>
+        <min-response-time>0.47</min-response-time>
+    </test-summary>
+
+</results>
